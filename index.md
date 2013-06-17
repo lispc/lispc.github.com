@@ -22,7 +22,12 @@ It took one year for me to realize that I am truly interested in computer scienc
 ##Philosophy
 I have been a fan of Ayn Rand since I read her book Atlas Shrugged in the winter of 2010, namely, the last year of my high school. My favourite quote is : I SWEAR BY MY LIFE AND THE LOVE OF IT THAT I WILL NEVER LIVE FOR THE SAKE OF ANOTHER MAN NOR ASK HIM TO LIVE FOR MINE.
 ##Personal life
-###Things I likei
+###Things I like
 technology, science, business; learing, reading; swimming, roller skating; designing, crafts; google, wikipedia; celtic woman, sarah brightman; open source spirit and copyright;cooking;
 ###Things I dislike
 Great Fire Wall, political propaganda; altruism, communism;repetive work;
+##Contact
+[resume](http://yaoyaobus-yaoyaobus.stor.sinaapp.com/zhuozhang_tsinghua.pdf)
+mycinbrin^gmail.com
+[weibo.com/lispc](weibo.com/lispc)
+
