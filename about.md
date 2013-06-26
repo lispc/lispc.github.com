@@ -1,0 +1,33 @@
+---
+layout: page
+title: "Who am I"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+##Zhuo (Larry) Zhang
+I am a sophomore student majoring computer science in Tsinghua University.
+##Computer Science
+My main interests are compiler, operating system, database, distributed system and other system stuff, while I am also a bit interested in machine learing and computer graphics.
+##Work Experience
+I have interned at [Sunshine Library](www.sunshine-library.org) this spring. It is an NGO aiming at improving education quality in rural areas in China by information technology with a wonderful team including alumni from Boston Consulting Group and Innovation Works, where I am a Ruby on Rails developer.
+This summer I will intern at China Mobile Labs as an assistant product manager of the instant messaging application Jego on the Android platform.The main job includes analysing the low level mechanism of communication of Andoird operation system and use it to improve the performance and user experience of the application.
+##Career
+###Short term
+It took one year for me to realize that I am truly interested in computer science and engineering. Before that, I considered the possibility of pursue a finance or consulting career.But I want to be a great programmer now ( you can call it software developer or scientist or something else ). As for now, I do not have the plan of pursuing a Phd degree.
+###Long term
+(0)Career prosperity and success of my own.
+(1)I hope one day I can make the world more efficient, by technology or business or so on. Human being will be freed from a lot of tedious work and fulfill their potential.
+##Philosophy
+I have been a fan of Ayn Rand since I read her book Atlas Shrugged in the winter of 2010, namely, the last year of my high school. My favourite quote is : I SWEAR BY MY LIFE AND THE LOVE OF IT THAT I WILL NEVER LIVE FOR THE SAKE OF ANOTHER MAN NOR ASK HIM TO LIVE FOR MINE.
+##Personal life
+###Things I like
+technology, science, business; learing, reading; swimming, roller skating; designing, handcrafts; google, wikipedia; celtic woman, sarah brightman; open source spirit and copyright;cooking;
+###Things I dislike
+Great Fire Wall, political propaganda; altruism, communism;repetive work;
+##Contact
+[resume](http://yaoyaobus-yaoyaobus.stor.sinaapp.com/zhuozhang_tsinghua.pdf)
+mycinbrin^gmail.com
+[weibo.com/lispc](http://weibo.com/lispc)
+
