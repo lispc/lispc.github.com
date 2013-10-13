@@ -1,0 +1,135 @@
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black 
+    %urlcolor=mygreylink     % can put red here to better visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.40}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\ressubheadingg}[6]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+		\textit{#5} & \textit{#6} \\
+\end{tabular*}\vspace{-6pt}}
+
+
+\newcommand{\ressubsubheading}[2]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textit{#1} & \textit{#2} \\
+\end{tabular*}\vspace{-6pt}}
+\begin{document}
+
+\newcommand{\mywebheader}{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{{\LARGE Zhuo Zhang}} & \href{mailto:mycinbrin@gmail.com}{mycinbrin@gmail.com}\\
+	{\footnotesize \texttt{1704B, Starr Hall, 91B Pok Fu Lam Rd, Hong Kong}} & {(+852)64392758 +(86)18600162706}
+	\end{tabular*}
+\\
+\vspace{0.1in}}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+	\begin{itemize}
+			\item
+				\ressubheadingg{\href{http://www.tsinghua.edu.cn}{Tsinghua University}}{Beijing, China}{{BEng in Computer Science}}{Aug 2011 -- Jun 2015}{Bachelor of Economics, Second Major}{Sept 2012 -- Jun 2015}
+				{ \footnotesize
+				\begin{itemize}
+						\resitem{\textbf{Major GPA: 88/100}}
+						\resitem{\textbf{Honors:}} 
+						\begin{itemize}
+								\resitem{Zhang Minghua Integrated Scholarship (20\%) }
+								\resitem{Scholarship for New Applicants (20\%) }
+						\end{itemize}
+				\end{itemize}
+				}
+			\item
+				\ressubheading{\href{http://www.hku.hku}{The University of Hong Kong}}{Hong Kong}{Exchange Student in Computer Science Department}{Aug 2013 -- Dec 2013}{}
+	\end{itemize} % End Education list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Experience}
+	\begin{itemize}
+		\item 
+			\ressubheading{\href{http://labs.chinamobile.com/}{China Mobile Research Institute}}{Beijing, China}
+				{IT Specialist Intern}{Jun 2013 -- Aug 2013}
+				{ \footnotesize
+				\begin{itemize}
+
+						\resitem{Designed IM protocols based on XMPP, SIP/RCS, EAS for mobile clients}
+						\resitem{Gave a lecture on Android architectue and development to the Product Team}
+						\resitem{Written a script for the team to automate workflow, saving time for other team members}
+				\end{itemize}
+				}
+		\item 
+			\ressubheading{\href{http://www.sunshine-library.org}{Sunshine Library Rural Digital Education Initiative}}{Beijing, China}{Web Developer}{Mar 2013 -- Jun 2013}
+				{ \footnotesize
+				\begin{itemize}
+						\resitem{Setup a daemon for synchronizing files between six servers with Node.js and RabbitMQ}
+						\resitem{Added features for the project on file handling in Ruby on Rails, refractored code to get better flexibility and extensibility}
+						\resitem{Configured enviroment for new servers to work with the cluster}
+				\end{itemize}
+				}
+	\end{itemize}  % End Experience list
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Skills}
+	\begin{description}
+	\item[Experienced:] { \footnotesize C, C++, Python, SQL; Linux utilities, Mysql}
+	\item[Familiar:] { \footnotesize Bash, Haskell, Java, Javascript; Rails, Django, Nodejs, MPI, Unix Programming; Git, JVM}
+	\item[Intermediate:] { \footnotesize C\#, Matlab; Hadoop, GPGPU, STM}
+	\end{description} % End Skills list
+\resheading{Projects}
+	\begin{itemize}
+	\item 
+	{\sl Hubby} \hfill \textit{Oct 2013}\\
+	{\footnotesize
+	{A distributed lock service written in Haskell, which is based on the paper \emph{Paxos Made Practical} and the Chubby Project. It provides fault-tolerant course-granted advisory lock.}
+	}
+\item
+	{\sl Gyro} \hfill \textit{Apr 2013}\\ 
+	{ \footnotesize A mobile multi-player RPG game. I implemented the backend for communication between user with Node.js framework and long-polling.}
+\item
+	{\sl Yaoyaobus} \hfill \textit{Nov 2012}\\
+	{ \footnotesize 
+		{A website for bus information query. The bus information of Beijing was crawled and stored to built a simple Content Management System located in Sina App Engine. It was built with Django.}
+	}
+\end{itemize}
+\end{document}
+
