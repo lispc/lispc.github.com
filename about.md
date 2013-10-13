@@ -27,7 +27,7 @@ technology, science, business; learing, reading; swimming, roller skating; desig
 ###Things I dislike
 Great Fire Wall, political propaganda; altruism, communism;repetive work;
 ##Contact
-[resume](/assets/files/work.pdf)
+[resume](/assets/files/resume2.pdf)
 mycinbrin^gmail.com
 [weibo.com/lispc](http://weibo.com/lispc)
 
