@@ -27,7 +27,7 @@ technology, science, business; learing, reading; swimming, roller skating; desig
 ###Things I dislike
 Great Fire Wall, political propaganda; altruism, communism;repetive work;
 ##Contact
-[resume](http://yaoyaobus-yaoyaobus.stor.sinaapp.com/zhuozhang_tsinghua.pdf)
+[resume](/assets/files/resume_zz.pdf)
 mycinbrin^gmail.com
 [weibo.com/lispc](http://weibo.com/lispc)
 
