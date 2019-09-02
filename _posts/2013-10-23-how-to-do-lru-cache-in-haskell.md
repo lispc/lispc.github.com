@@ -5,7 +5,8 @@ description: ""
 category: 
 tags: []
 ---
-<pre><code>import qualified Data.Map as M
+{% highlight haskell %}
+import qualified Data.Map as M
 import qualified Data.PQueue.Min as PQ
 fib 0 = 1
 fib 1 = 1 
@@ -45,6 +46,6 @@ main = do
     print r1
     let (_,r2) = cacheWithLimitSpace fib c tint
     print r2
-</code></pre>
+{% endhighlight %}
 
 {% include JB/setup %}

@@ -5,7 +5,8 @@ description: ""
 category: 
 tags: []
 ---
-<pre><code>import Data.Char
+{% highlight haskell %}
+import Data.Char
 pl [0,0,0] acc = acc
 pl ll acc = 
     pl (map (flip quot 2) ll) $ zipWith ($) (map (\x -> \ls->(mod x 2):ls )ll) acc
@@ -48,5 +49,5 @@ goor b@(bh:bt) c@(ch:ct) l =
         (1,0) -> (goor bt ct ll)+(gtor ct ll)
         (1,1) -> (2^ll)^2+(goor bt ct ll)+(gtor ct ll)+(2^ll)*(gn bt)
         where ll=l-1
-</code></pre>
+{% endhighlight %}
 {% include JB/setup %}

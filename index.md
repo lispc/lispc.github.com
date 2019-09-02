@@ -6,9 +6,8 @@ category:
 tags: []
 ---
 {% include JB/setup %}
-{% for post in site.posts %}
-<a href="{{ root_url }}{{ post.url }}">
-{{ post.title}}
-<br>
-</a>
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    <li>{{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
