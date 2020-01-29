@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pneumonia"
+title: "《新冠肺炎地级市疫情图》中的产品细节"
 description: ""
 category: 
 tags: []
