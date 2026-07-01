@@ -50,4 +50,3 @@ goor b@(bh:bt) c@(ch:ct) l =
         (1,1) -> (2^ll)^2+(goor bt ct ll)+(gtor ct ll)+(2^ll)*(gn bt)
         where ll=l-1
 {% endhighlight %}
-{% include JB/setup %}

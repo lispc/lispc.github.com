@@ -47,5 +47,3 @@ main = do
     let (_,r2) = cacheWithLimitSpace fib c tint
     print r2
 {% endhighlight %}
-
-{% include JB/setup %}

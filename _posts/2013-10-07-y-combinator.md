@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
 {% highlight python %}
 #! /usr/bin/env python3
 Y=lambda F:(\
